@@ -1,17 +1,23 @@
 const CACHE_NAME = 'techlystb-cache-v1';
-const URLS = ['/', '/manifest.json', '/icon-192.png', '/icon-512.png'];
+const urlsToCache = [
+  '/',
+  '/manifest.json',
+  '/icon-192.png',
+  '/icon-512.png'
+];
 
-self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(URLS)));
-});
-self.addEventListener('activate', e => {
-  e.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))
-    )
+self.addEventListener('install', event => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then(cache => {
+      return cache.addAll(urlsToCache);
+    })
   );
-  self.clients.claim();
 });
-self.addEventListener('fetch', e => {
-  e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)));
+
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.match(event.request).then(response => {
+      return response || fetch(event.request);
+    })
+  );
 });
