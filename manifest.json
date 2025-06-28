@@ -29,9 +29,38 @@
     },
     {
       "src": "screenshots/screen2.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "label": "Tools Page",
+      "form_factor": "narrow"
+    },
+    
+    {
+      "src": "screenshots/screen3.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "label": "Blogs Page",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "screenshots/screen4.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Home View",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshots/screen5.png",
       "sizes": "1280x720",
       "type": "image/png",
       "label": "Tools Page",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshots/screen6.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Blogs Page",
       "form_factor": "wide"
     }
   ],
@@ -39,8 +68,8 @@
     {
       "name": "SEO Tools",
       "short_name": "SEO",
-      "description": "Open SEO tools category",
-      "url": "/search/label/SEO",
+      "description": "Open Online SEO tools",
+      "url": "/p/tools.html",
       "icons": [
         {
           "src": "icon-192.png",
