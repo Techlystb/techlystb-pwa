@@ -29,6 +29,9 @@ https://<আপনার-username>.github.io/<fork-kora-repo>/manifest.json
 
 💡 Helpful হলে অবশ্যই ⭐ Star দিন! আর কোনো প্রশ্ন থাকলে জানাবেন 🚀🔥
 
+✨ Demo 👉 Live Blog: https://techlystb.blogspot.com/p/blogs.html
+👉 Repo: https://github.com/<username>/<repo-name>
+
 
 
 
