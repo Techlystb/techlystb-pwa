@@ -1,12 +1,4 @@
 # techlystb-pwa
-<center><button class="install-app-btn" id="installBtn" style="display:none;">
-  <svg viewBox="0 0 24 24">
-    <path d="M12 16l4-5h-3V4h-2v7H8l4 5zm-7 2h14v2H5z"/>
-  </svg>
-  Install App
-</button>
- </center>
-
 🔄 কিভাবে Fork করে নিজের সাইটে ব্যবহার করবেন 👉 আপনি যদি এই PWA Install Button সিস্টেমটি নিজের Blogger সাইটে ব্যবহার করতে চান, তাহলে নিচের ধাপগুলো অনুসরণ করুন—
 
 ✅ Step‑by‑Step
@@ -36,7 +28,14 @@ https://<আপনার-username>.github.io/<fork-kora-repo>/manifest.json
 
 💡 Helpful হলে অবশ্যই ⭐ Star দিন! আর কোনো প্রশ্ন থাকলে জানাবেন 🚀🔥
 
-✨ Demo 👉 Live Blog: https://techlystb.blogspot.com/p/blogs.html
+✨ Demo 👉 Live Blog: <button class="install-app-btn" id="installBtn" style="display:none;">
+  <svg viewBox="0 0 24 24">
+    <path d="M12 16l4-5h-3V4h-2v7H8l4 5zm-7 2h14v2H5z"/>
+  </svg>
+  Install App
+</button>
+
+https://techlystb.blogspot.com/p/blogs.html
 
 
 
